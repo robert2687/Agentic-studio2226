@@ -29,8 +29,8 @@ export const Terminal: React.FC<Props> = ({ logs }) => {
       
       <div className="flex-1 overflow-y-auto p-4 space-y-3">
         <div className="text-gray-500 italic">
-          > Agentic Studio environment initialized...<br/>
-          > Waiting for user prompt...
+          &gt; Agentic Studio environment initialized...<br/>
+          &gt; Waiting for user prompt...
         </div>
         
         {logs.map((log) => (

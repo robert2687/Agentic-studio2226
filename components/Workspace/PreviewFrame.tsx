@@ -249,10 +249,10 @@ export const PreviewFrame: React.FC<Props> = ({ status, onTriggerError }) => {
                         Runtime error detected. Reading stderr stream and applying hotfix...
                     </p>
                     <div className="w-full max-w-sm bg-black/50 rounded-lg p-3 border border-red-900/50 font-mono text-xs text-left text-red-300 mb-4 shadow-2xl">
-                        > Uncaught TypeError: Cannot read properties of undefined (reading 'map')<br/>
-                        > at AgentCard (src/components/AgentCard.tsx:45)<br/>
-                        <span className="text-blue-400 animate-pulse mt-2 block">> Analysis: "agent" prop is missing from parent list.</span>
-                        <span className="text-green-400 mt-1 block">> Action: Re-syncing agent store.</span>
+                        &gt; Uncaught TypeError: Cannot read properties of undefined (reading 'map')<br/>
+                        &gt; at AgentCard (src/components/AgentCard.tsx:45)<br/>
+                        <span className="text-blue-400 animate-pulse mt-2 block">&gt; Analysis: "agent" prop is missing from parent list.</span>
+                        <span className="text-green-400 mt-1 block">&gt; Action: Re-syncing agent store.</span>
                     </div>
                 </div>
             )}
